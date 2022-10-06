@@ -12,5 +12,19 @@
       "name": "asdfasdf",
       "id": 2
     }
+  ],
+  "foods": [
+    {
+      "id": 0,
+      "name": "Cakes"
+    },
+    {
+      "name": "asfa",
+      "id": 1
+    },
+    {
+      "name": "asdfasdf",
+      "id": 2
+    }
   ]
 }

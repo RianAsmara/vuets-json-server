@@ -1,0 +1,276 @@
+{
+  "initial": {
+    "message": "Success",
+    "data": {
+      "company": {
+        "name": "My Company",
+        "photo": "https://..."
+      },
+      "user": {
+        "id": "uuid_str",
+        "name": "My Name",
+        "photo": "https://...",
+        "is_admin": true,
+        "is_manager": true,
+        "direct_reports": [
+          {
+            "id": "uuid_str",
+            "name": "Direct Report Name",
+            "photo": "https://..."
+          },
+          {
+            "id": "uuid_str",
+            "name": "Direct Report Name",
+            "photo": "https://..."
+          }
+        ],
+        "team": {
+          "id": "uuid_str",
+          "name": "My Team",
+          "photo": "https://..."
+        }
+      },
+      "is_checked_in": true,
+      "notification_count": 10,
+      "settings": [
+        {
+          "key": "payment.subscription.enable",
+          "value": "0"
+        },
+        {
+          "key": "auth.features.signUp.enable",
+          "value": "1"
+        }
+      ]
+    }
+  },
+  "checkinInfo": {
+    "message": "Success",
+    "data": {
+      "checkin_id": "sjdhf-adfa-asd-fa-asdff",
+      "week": {
+        "info": "Week 34",
+        "date_range": "26 Sep - 30 Sep"
+      },
+      "emotions": [
+        {
+          "id": 1,
+          "value": "1",
+          "label": "Amazing",
+          "emoji": "https://...",
+          "is_selected": true
+        },
+        {
+          "id": 2,
+          "value": "2",
+          "label": "Happy",
+          "emoji": "https://...",
+          "is_selected": false
+        }
+      ],
+      "priorities": [
+        {
+          "id": 1,
+          "title": "Task 1",
+          "is_checked": true
+        },
+        {
+          "id": 2,
+          "title": "Task 2",
+          "is_checked": true
+        }
+      ],
+      "last_priorities": [
+        {
+          "id": 1,
+          "title": "Answer 1"
+        },
+        {
+          "id": 2,
+          "title": "Answer 2"
+        }
+      ],
+      "issue": "I dont have any issue"
+    }
+  },
+  "checkinsId": {
+    "message": "Success"
+  },
+  "checkins": {
+    "message": "Success"
+  },
+  "checkinsRecent": {
+    "message": "Success",
+    "data": {
+      "last_checkin": {
+        "id": "uuid_str",
+        "submitted_at": "Monday, 19 Sep 2022"
+      },
+      "recent_checkins": [
+        {
+          "id": "uuid_str",
+          "week": {
+            "info": "Week 34",
+            "date_range": "26 Sep - 30 Sep"
+          },
+          "submitted_at": "Monday, 19 Sep 2022",
+          "priorities_count": 3
+        },
+        {
+          "id": "uuid_str",
+          "week": {
+            "info": "Week 33",
+            "date_range": "26 Sep - 30 Sep"
+          },
+          "submitted_at": "Monday, 10 Sep 2022",
+          "priorities_count": 2
+        }
+      ]
+    }
+  },
+  "checkinsQueryParam": {
+    "message": "Success",
+    "data": [
+      {
+        "id": "uuid_str",
+        "user": {
+          "name": "User Name",
+          "photo": "https://..."
+        },
+        "submitted_at": "Monday, 10 Sep 2022",
+        "emotion": {
+          "emoji": "https://...",
+          "label": "Amazing",
+          "value": "1"
+        },
+        "priorities": [
+          {
+            "id": 1,
+            "title": "Task 1",
+            "is_checked": true
+          },
+          {
+            "id": 2,
+            "title": "Task 2",
+            "is_checked": true
+          }
+        ],
+        "issue": "I dont have any issue",
+        "can_modify_priorities": true,
+        "reactions": [
+          {
+            "emoji": ":face:",
+            "count": 2,
+            "reacted_by_me": true,
+            "users": [
+              {
+                "name": "User 1",
+                "photo": "https://..."
+              },
+              {
+                "name": "User 2",
+                "photo": "https://..."
+              }
+            ]
+          },
+          {
+            "emoji": ":face_1:",
+            "count": 2,
+            "reacted_by_me": false,
+            "users": [
+              {
+                "name": "User 2",
+                "photo": "https://..."
+              },
+              {
+                "name": "User 3",
+                "photo": "https://..."
+              }
+            ]
+          }
+        ],
+        "comments": [
+          {
+            "user": {
+              "name": "My Name",
+              "photo": "https://..."
+            },
+            "comment": "Hello my name is comment",
+            "created_at": "20 Sep 2022 12:21"
+          },
+          {
+            "user": {
+              "name": "My Name 1",
+              "photo": "https://..."
+            },
+            "comment": "Hello my name is comment 1",
+            "created_at": "20 Sep 2022 12:20"
+          }
+        ]
+      }
+    ]
+  },
+  "checkinsOrgOptions": {
+    "message": "Success",
+    "data": [
+      {
+        "id": "uuid_str",
+        "name": "Team 1",
+        "type": "Team"
+      },
+      {
+        "id": "uuid_str",
+        "name": "Department 1",
+        "type": "Department"
+      }
+    ]
+  },
+  "checkinsWeekOptions": {
+    "message": "Success",
+    "data": [
+      {
+        "id": "uuid_str",
+        "info": "Week 1"
+      },
+      {
+        "id": "uuid_str",
+        "info": "Week 2"
+      }
+    ]
+  },
+  "checkinsIdReaction": {
+    "message": "Success",
+    "data": [
+      {
+        "emoji": ":face:",
+        "count": 2,
+        "reacted_by_me": true,
+        "users": [
+          {
+            "name": "User 1",
+            "photo": "https://..."
+          },
+          {
+            "name": "User 2",
+            "photo": "https://..."
+          }
+        ]
+      },
+      {
+        "emoji": ":face_1:",
+        "count": 2,
+        "reacted_by_me": false,
+        "users": [
+          {
+            "name": "User 2",
+            "photo": "https://..."
+          },
+          {
+            "name": "User 3",
+            "photo": "https://..."
+          }
+        ]
+      }
+    ]
+  }
+}

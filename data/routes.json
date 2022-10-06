@@ -1,0 +1,10 @@
+{
+  "/api/initial": "/initial",
+  "/api/checkin/info": "/checkinInfo",
+  "/api/checkins/:id": "/checkinsId",
+  "/api/checkins": "/checkins",
+  "/api/checkins/recent": "/checkinsRecent",
+  "/api/checkins?type=team&org_type=department&org_id=1&week_id=1": "/checkinsQueryParam",
+  "/api/checkins/org-options": "/checkinsOrgOptions",
+  "/api/checkins/:id/reaction": "/checkinsIdReaction"
+}
